@@ -10,7 +10,7 @@ var LINES = [
     "Hey, now, you're a Rock Star, get the show on, get paid",
     "And all that glitters is gold",
     "Only shooting stars break the mold",
-    "Shooting stars from 210 300 and get change: " + C.getChange(210,300)
+    "Shooting stars from 210 300 and get asteroids change: " + C.getChange(210,300)
 ];
 
 var lineIndex = 0;
