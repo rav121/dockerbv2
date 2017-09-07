@@ -11,6 +11,11 @@
     "istanbul":"^0.3.17",
     "codeclimate-test-reporter": "^0.0.4"
   },
+  "main": "app.js",
+  "dependencies": {
+        "express": "~4.14.0",
+        "express-handlebars": "~3.0.0"
+    },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "coverage":"istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec",
