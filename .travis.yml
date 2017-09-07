@@ -9,5 +9,3 @@ script:
   - docker build -t temp-travis .
   - docker push temp-travis rav121/dockerbv2:travislatest
 
-script:
-  - bundle exec rake test
