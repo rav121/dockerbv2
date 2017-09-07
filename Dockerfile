@@ -9,6 +9,10 @@ RUN npm install && npm ls
 #RUN mv /code/node_modules /node_modules
 
 COPY . /code
+RUN npm install istanbul
+RUN npm install mocha
+RUN npm install mocha-istanbul
+RUN npm test
 EXPOSE 8000
 
 CMD ["npm", "start"]
